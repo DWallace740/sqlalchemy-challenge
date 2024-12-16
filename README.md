@@ -1,23 +1,22 @@
-"""
-Climate Analysis and Flask API
+# Climate Analysis and Flask API
 
-Project Overview:
+## Project Overview:
 This project analyzes weather data for Hawaii using Python, SQLAlchemy, and Flask. 
 The data is stored in a SQLite database and includes precipitation, temperature, 
 and station information. A Flask API is created to provide easy access to the 
 results of the analysis.
 
-Files:
+## Files:
 1. hawaii.sqlite - The SQLite database containing the climate data.
 2. climate_starter.ipynb - A Jupyter Notebook used to perform data exploration and visualization.
 3. app.py - The Flask application that provides API routes to access the climate data.
 
-Database Structure:
+## Database Structure:
 - Measurement: Contains the recorded data (precipitation, temperature observations, 
   date, and station ID).
 - Station: Contains metadata about weather stations.
 
-Flask API Routes:
+## Flask API Routes:
 1. Homepage: 
    Route: `/` 
    Description: Displays a list of available routes.
@@ -44,7 +43,7 @@ Flask API Routes:
    Description: Returns the minimum, average, and maximum temperatures for the 
    specified date range.
 
-How to Run the Project:
+## How to Run the Project:
 
 Prerequisites:
 Ensure the following Python libraries are installed:
@@ -54,7 +53,7 @@ Ensure the following Python libraries are installed:
 - NumPy
 - Matplotlib
 
-Install these libraries using pip:
+## Install these libraries using pip:
 pip install flask sqlalchemy pandas numpy matplotlib
 
 Steps to Run:
@@ -77,7 +76,7 @@ Steps to Run:
    - Temperature Statistics with Start/End Dates: [http://127.0.0.1:5000/api/v1.0/2016-08-23/2017-08-23](http://127.0.0.1:5000/api/v1.0/2016-08-23/2017-08-23)
 
 
-Output Images:
+## Output Images:
 Include these key screenshots in your project submission to demonstrate functionality:
 1. Flask API Homepage - A screenshot of the homepage listing all available routes.
 2. Precipitation Route - A screenshot of the JSON output from the `/api/v1.0/precipitation` route.
@@ -87,7 +86,7 @@ Include these key screenshots in your project submission to demonstrate function
    - Precipitation bar chart from the Jupyter Notebook.
    - TOBS histogram from the Jupyter Notebook.
 
-Resources Used:
+## Resources Used:
 - ChatGPT (AI Assistant): Assisted with structuring Flask routes, SQLAlchemy queries, 
   debugging code, and formatting this document.
 - Xpert Learning Assistant: Used for assistance in understanding and applying concepts.
@@ -95,6 +94,5 @@ Resources Used:
 - SQLAlchemy Documentation: Helped with ORM queries and reflecting the database.
 - Matplotlib and Pandas Documentation: Used for creating visualizations and handling data.
 
-License:
+## License:
 This project is licensed under the MIT License.
-"""
